@@ -2,8 +2,11 @@ builds:
   - binary: askcloud
     goos:
       - darwin
+      - linux
     goarch:
       - amd64
+      - arm64
+      - arm
     env:
       - CGO_ENABLED=0
     flags:
