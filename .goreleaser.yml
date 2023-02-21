@@ -12,6 +12,8 @@ builds:
    
     flags:
       - -trimpath
+    ldflags:
+      - -s -w -X github.com/chinmaysomani07/askcloud/cmd.version=v{{.Version}}
 release:
   prerelease: auto
 
