@@ -1,5 +1,5 @@
 builds:
-  - binary: askcloud
+  - binary: askcl
     goos:
       - darwin
       - linux
