@@ -1,6 +1,5 @@
 builds:
-  - binary: askcl
-    goos:
+  - goos:
       - darwin
       - linux
     goarch:
@@ -22,7 +21,7 @@ universal_binaries:
 
 brews:
   -
-    name: askcl
+    name: askcllllllll
     homepage: https://github.com/chinmaysomani07/askcloud
     tap:
       owner: chinmaysomani07
