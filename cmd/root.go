@@ -28,7 +28,7 @@ var rootCmd = &cobra.Command{
 			fmt.Println("I like these words better!")
 			return
 		}
-		fmt.Println("Hello World 12!")
+		fmt.Println("Hello World 13!")
 	},
 }
 
