@@ -21,7 +21,7 @@ universal_binaries:
 
 brews:
   -
-    name: tempaskcll
+    name: tempask11
     homepage: https://github.com/chinmaysomani07/askcloud
     tap:
       owner: chinmaysomani07
