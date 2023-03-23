@@ -21,7 +21,7 @@ universal_binaries:
 
 brews:
   -
-    name: askcloud
+    name: askcloud #.rb file with this name is made in homebrew-askcloud repository
     homepage: https://github.com/chinmaysomani07/askcloud
     tap:
       owner: chinmaysomani07
