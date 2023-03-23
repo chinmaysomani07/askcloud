@@ -21,11 +21,11 @@ universal_binaries:
 
 brews:
   -
-    name: tempask13
+    name: askcloud
     homepage: https://github.com/chinmaysomani07/askcloud
     tap:
       owner: chinmaysomani07
-      name: homebrew-askcloudd
+      name: homebrew-askcloud
     commit_author:
       name: chinmaysomani07
       email: chinmaysomani7@gmail.com
