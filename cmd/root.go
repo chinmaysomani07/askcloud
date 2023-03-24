@@ -1,6 +1,3 @@
-/*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-*/
 package cmd
 
 import (
@@ -10,7 +7,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "askcloudhelloworld",
 	Short: "A basic Hello World example",
@@ -28,12 +24,10 @@ var rootCmd = &cobra.Command{
 			fmt.Println("I like these words better!")
 			return
 		}
-		fmt.Println("Hello World 01!")
+		fmt.Println("Hello World v0.1.0!")
 	},
 }
 
-// Execute adds all child commands to the root command and sets flags appropriately.
-// This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
 	err := rootCmd.Execute()
 	if err != nil {
