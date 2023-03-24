@@ -24,7 +24,7 @@ var rootCmd = &cobra.Command{
 			fmt.Println("I like these words better!")
 			return
 		}
-		fmt.Println("Hello World v0.1.0!")
+		fmt.Println("Hello World v0.1.1!")
 	},
 }
 
